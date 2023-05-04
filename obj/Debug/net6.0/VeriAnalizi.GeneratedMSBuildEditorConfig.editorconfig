@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VeriAnalizi
+build_property.RootNamespace = VeriAnalizi
+build_property.ProjectDir = C:\Users\Gamze\Desktop\Uygulama\KisiselVeriAnalizi\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Gamze\Desktop\Uygulama\KisiselVeriAnalizi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/GunlukDoz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcR3VubHVrRG96LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/Hakkinda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcSGFra2luZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/Iletisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcSWxldGlzaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/Sorular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcU29ydWxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/Testler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcVGVzdGxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/Yorumlar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcWW9ydW1sYXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/Yorumlar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcWW9ydW1sYXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/Yorumlar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcWW9ydW1sYXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/Yorumlar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcWW9ydW1sYXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/Yorumlar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcWW9ydW1sYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/Shared/General.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdlbmVyYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/YoneticiYorum/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lZb3J1bVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/YoneticiYorum/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lZb3J1bVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/YoneticiYorum/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lZb3J1bVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/YoneticiYorum/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lZb3J1bVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/YoneticiYorum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpY2lZb3J1bVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m9itqxq7ia

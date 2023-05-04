@@ -1,0 +1,299 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-VeriAnalizi-ca8d61a7-7072-497d-88f1-0524c595e299</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Website\bat\phpmailer\class.phpmailer.php" />
+    <Content Remove="wwwroot\Website\bat\phpmailer\class.pop3.php" />
+    <Content Remove="wwwroot\Website\bat\phpmailer\class.smtp.php" />
+    <Content Remove="wwwroot\Website\bat\phpmailer\PHPMailerAutoload.php" />
+    <Content Remove="wwwroot\Website\bat\rd-mailform.php" />
+    <Content Remove="wwwroot\Website\bat\rd-mailform.tpl" />
+    <Content Remove="wwwroot\Website\bat\rd-search.php" />
+    <Content Remove="wwwroot\Website\bat\reCaptcha.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\autoload.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\ReCaptcha.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\RequestMethod.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\RequestMethod\Curl.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\RequestMethod\CurlPost.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\RequestMethod\Post.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\RequestMethod\Socket.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\RequestMethod\SocketPost.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\RequestParameters.php" />
+    <Content Remove="wwwroot\Website\bat\ReCaptcha\Response.php" />
+    <Content Remove="wwwroot\Website\css\bootstrap.css" />
+    <Content Remove="wwwroot\Website\css\fonts.css" />
+    <Content Remove="wwwroot\Website\css\style.css" />
+    <Content Remove="wwwroot\Website\fonts\fl-bigmug-line.eot" />
+    <Content Remove="wwwroot\Website\fonts\fl-bigmug-line.svg" />
+    <Content Remove="wwwroot\Website\fonts\fl-bigmug-line.ttf" />
+    <Content Remove="wwwroot\Website\fonts\fl-bigmug-line.woff" />
+    <Content Remove="wwwroot\Website\fonts\fontawesome-webfont.eot" />
+    <Content Remove="wwwroot\Website\fonts\fontawesome-webfont.svg" />
+    <Content Remove="wwwroot\Website\fonts\fontawesome-webfont.ttf" />
+    <Content Remove="wwwroot\Website\fonts\fontawesome-webfont.woff" />
+    <Content Remove="wwwroot\Website\fonts\fontawesome-webfont.woff2" />
+    <Content Remove="wwwroot\Website\fonts\FontAwesome.otf" />
+    <Content Remove="wwwroot\Website\fonts\lg.eot" />
+    <Content Remove="wwwroot\Website\fonts\lg.svg" />
+    <Content Remove="wwwroot\Website\fonts\lg.ttf" />
+    <Content Remove="wwwroot\Website\fonts\lg.woff" />
+    <Content Remove="wwwroot\Website\fonts\materialdesignicons-webfont.eot" />
+    <Content Remove="wwwroot\Website\fonts\materialdesignicons-webfont.svg" />
+    <Content Remove="wwwroot\Website\fonts\materialdesignicons-webfont.ttf" />
+    <Content Remove="wwwroot\Website\fonts\materialdesignicons-webfont.woff" />
+    <Content Remove="wwwroot\Website\fonts\materialdesignicons-webfont.woff2" />
+    <Content Remove="wwwroot\Website\fonts\MaterialIcons-Regular.eot" />
+    <Content Remove="wwwroot\Website\fonts\MaterialIcons-Regular.ijmap" />
+    <Content Remove="wwwroot\Website\fonts\MaterialIcons-Regular.ttf" />
+    <Content Remove="wwwroot\Website\fonts\MaterialIcons-Regular.woff" />
+    <Content Remove="wwwroot\Website\fonts\MaterialIcons-Regular.woff2" />
+    <Content Remove="wwwroot\Website\fonts\Mercury-Regular.eot" />
+    <Content Remove="wwwroot\Website\fonts\Mercury-Regular.svg" />
+    <Content Remove="wwwroot\Website\fonts\Mercury-Regular.ttf" />
+    <Content Remove="wwwroot\Website\fonts\Mercury-Regular.woff" />
+    <Content Remove="wwwroot\Website\fonts\Thin-Regular.eot" />
+    <Content Remove="wwwroot\Website\fonts\Thin-Regular.svg" />
+    <Content Remove="wwwroot\Website\fonts\Thin-Regular.ttf" />
+    <Content Remove="wwwroot\Website\fonts\Thin-Regular.woff" />
+    <Content Remove="wwwroot\Website\images\ajax-loader.gif" />
+    <Content Remove="wwwroot\Website\images\banner\background-01-1920x310.jpg" />
+    <Content Remove="wwwroot\Website\images\banner\background-01-3840x620.jpg" />
+    <Content Remove="wwwroot\Website\images\banner\background-02-1920x60.jpg" />
+    <Content Remove="wwwroot\Website\images\banner\background-02-3840x120.jpg" />
+    <Content Remove="wwwroot\Website\images\banner\foreground-01-1600x310.png" />
+    <Content Remove="wwwroot\Website\images\banner\foreground-01-3200x620.png" />
+    <Content Remove="wwwroot\Website\images\banner\foreground-02-1600x60.png" />
+    <Content Remove="wwwroot\Website\images\banner\foreground-02-3200x120.png" />
+    <Content Remove="wwwroot\Website\images\bg-breadcrumbs-01-1920x480.jpg" />
+    <Content Remove="wwwroot\Website\images\bg-breadcrumbs-02-1920x480.jpg" />
+    <Content Remove="wwwroot\Website\images\bg-footer-1920x1285.jpg" />
+    <Content Remove="wwwroot\Website\images\bg-home1-01-1920x1000.jpg" />
+    <Content Remove="wwwroot\Website\images\bg-home2-01-1920x1000.jpg" />
+    <Content Remove="wwwroot\Website\images\bg-pattern-boxed.png" />
+    <Content Remove="wwwroot\Website\images\bg-subscribe-1920x600.jpg" />
+    <Content Remove="wwwroot\Website\images\bgr.jpg" />
+    <Content Remove="wwwroot\Website\images\bio-01-468x553.jpg" />
+    <Content Remove="wwwroot\Website\images\buffer.png" />
+    <Content Remove="wwwroot\Website\images\controls.jpg" />
+    <Content Remove="wwwroot\Website\images\events-01-553x316.jpg" />
+    <Content Remove="wwwroot\Website\images\events-02-571x313.jpg" />
+    <Content Remove="wwwroot\Website\images\favicon.ico" />
+    <Content Remove="wwwroot\Website\images\gmap_marker-1.png" />
+    <Content Remove="wwwroot\Website\images\gmap_marker-2.png" />
+    <Content Remove="wwwroot\Website\images\gmap_marker-3.png" />
+    <Content Remove="wwwroot\Website\images\gmap_marker-4.png" />
+    <Content Remove="wwwroot\Website\images\gmap_marker-5.png" />
+    <Content Remove="wwwroot\Website\images\gmap_marker.png" />
+    <Content Remove="wwwroot\Website\images\gmap_marker_active.png" />
+    <Content Remove="wwwroot\Website\images\handle.png" />
+    <Content Remove="wwwroot\Website\images\home1-01-1920x950.jpg" />
+    <Content Remove="wwwroot\Website\images\home1-02-1920x950.jpg" />
+    <Content Remove="wwwroot\Website\images\home1-03-1920x950.jpg" />
+    <Content Remove="wwwroot\Website\images\home1-05-480x350.jpg" />
+    <Content Remove="wwwroot\Website\images\home1-06-480x350.jpg" />
+    <Content Remove="wwwroot\Website\images\home1-07-480x350.jpg" />
+    <Content Remove="wwwroot\Website\images\home1-08-480x350.jpg" />
+    <Content Remove="wwwroot\Website\images\ie8-panel\warning_bar_0000_us.jpg" />
+    <Content Remove="wwwroot\Website\images\image-original-01-1200x800.jpg" />
+    <Content Remove="wwwroot\Website\images\image-original-02-1200x800.jpg" />
+    <Content Remove="wwwroot\Website\images\image-original-03-1200x800.jpg" />
+    <Content Remove="wwwroot\Website\images\image-original-04-1200x800.jpg" />
+    <Content Remove="wwwroot\Website\images\itunes-21x21.png" />
+    <Content Remove="wwwroot\Website\images\loading.gif" />
+    <Content Remove="wwwroot\Website\images\logo-default-296x82.png" />
+    <Content Remove="wwwroot\Website\images\post-classic-01-346x260.jpg" />
+    <Content Remove="wwwroot\Website\images\post-classic-02-346x260.jpg" />
+    <Content Remove="wwwroot\Website\images\post-classic-03-346x260.jpg" />
+    <Content Remove="wwwroot\Website\images\preloader.gif" />
+    <Content Remove="wwwroot\Website\images\preloader.png" />
+    <Content Remove="wwwroot\Website\images\progress.png" />
+    <Content Remove="wwwroot\Website\images\progress_sprite.jpg" />
+    <Content Remove="wwwroot\Website\images\single-album-01-428x428.png" />
+    <Content Remove="wwwroot\Website\images\spotify-19x19.png" />
+    <Content Remove="wwwroot\Website\images\sprite.png" />
+    <Content Remove="wwwroot\Website\images\typography-01-770x485.jpg" />
+    <Content Remove="wwwroot\Website\images\typography-02-350x220.jpg" />
+    <Content Remove="wwwroot\Website\images\video-01-140x81.jpg" />
+    <Content Remove="wwwroot\Website\images\video-02-140x81.jpg" />
+    <Content Remove="wwwroot\Website\images\video-03-140x81.jpg" />
+    <Content Remove="wwwroot\Website\images\video-04-140x81.jpg" />
+    <Content Remove="wwwroot\Website\images\video-05-140x81.jpg" />
+    <Content Remove="wwwroot\Website\images\video-play.png" />
+    <Content Remove="wwwroot\Website\images\vimeo-play.png" />
+    <Content Remove="wwwroot\Website\images\volume.png" />
+    <Content Remove="wwwroot\Website\images\youtube-play.png" />
+    <Content Remove="wwwroot\Website\images\_blank.png" />
+    <Content Remove="wwwroot\Website\js\about.html" />
+    <Content Remove="wwwroot\Website\js\contacts.html" />
+    <Content Remove="wwwroot\Website\js\core.min.js" />
+    <Content Remove="wwwroot\Website\js\index.html" />
+    <Content Remove="wwwroot\Website\js\script.js" />
+    <Content Remove="wwwroot\Website\js\typography.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\fonts\fl-bigmug-line.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\fonts\lg.svg" />
+    <None Include="wwwroot\fonts\materialdesignicons-webfont.svg" />
+    <None Include="wwwroot\fonts\materialdesignicons-webfont.woff2" />
+    <None Include="wwwroot\fonts\MaterialIcons-Regular.ijmap" />
+    <None Include="wwwroot\fonts\MaterialIcons-Regular.woff2" />
+    <None Include="wwwroot\fonts\Mercury-Regular.svg" />
+    <None Include="wwwroot\fonts\Thin-Regular.svg" />
+    <None Include="wwwroot\Website\bat\phpmailer\class.phpmailer.php" />
+    <None Include="wwwroot\Website\bat\phpmailer\class.pop3.php" />
+    <None Include="wwwroot\Website\bat\phpmailer\class.smtp.php" />
+    <None Include="wwwroot\Website\bat\phpmailer\PHPMailerAutoload.php" />
+    <None Include="wwwroot\Website\bat\rd-mailform.php" />
+    <None Include="wwwroot\Website\bat\rd-mailform.tpl" />
+    <None Include="wwwroot\Website\bat\rd-search.php" />
+    <None Include="wwwroot\Website\bat\reCaptcha.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\autoload.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\ReCaptcha.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\RequestMethod.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\RequestMethod\Curl.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\RequestMethod\CurlPost.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\RequestMethod\Post.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\RequestMethod\Socket.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\RequestMethod\SocketPost.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\RequestParameters.php" />
+    <None Include="wwwroot\Website\bat\ReCaptcha\Response.php" />
+    <None Include="wwwroot\Website\css\bootstrap.css" />
+    <None Include="wwwroot\Website\css\fonts.css" />
+    <None Include="wwwroot\Website\css\style.css" />
+    <None Include="wwwroot\Website\fonts\fl-bigmug-line.eot" />
+    <None Include="wwwroot\Website\fonts\fl-bigmug-line.svg" />
+    <None Include="wwwroot\Website\fonts\fl-bigmug-line.ttf" />
+    <None Include="wwwroot\Website\fonts\fl-bigmug-line.woff" />
+    <None Include="wwwroot\Website\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\Website\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\Website\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\Website\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\Website\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\Website\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\Website\fonts\lg.eot" />
+    <None Include="wwwroot\Website\fonts\lg.svg" />
+    <None Include="wwwroot\Website\fonts\lg.ttf" />
+    <None Include="wwwroot\Website\fonts\lg.woff" />
+    <None Include="wwwroot\Website\fonts\materialdesignicons-webfont.eot" />
+    <None Include="wwwroot\Website\fonts\materialdesignicons-webfont.svg" />
+    <None Include="wwwroot\Website\fonts\materialdesignicons-webfont.ttf" />
+    <None Include="wwwroot\Website\fonts\materialdesignicons-webfont.woff" />
+    <None Include="wwwroot\Website\fonts\materialdesignicons-webfont.woff2" />
+    <None Include="wwwroot\Website\fonts\MaterialIcons-Regular.eot" />
+    <None Include="wwwroot\Website\fonts\MaterialIcons-Regular.ijmap" />
+    <None Include="wwwroot\Website\fonts\MaterialIcons-Regular.ttf" />
+    <None Include="wwwroot\Website\fonts\MaterialIcons-Regular.woff" />
+    <None Include="wwwroot\Website\fonts\MaterialIcons-Regular.woff2" />
+    <None Include="wwwroot\Website\fonts\Mercury-Regular.eot" />
+    <None Include="wwwroot\Website\fonts\Mercury-Regular.svg" />
+    <None Include="wwwroot\Website\fonts\Mercury-Regular.ttf" />
+    <None Include="wwwroot\Website\fonts\Mercury-Regular.woff" />
+    <None Include="wwwroot\Website\fonts\Thin-Regular.eot" />
+    <None Include="wwwroot\Website\fonts\Thin-Regular.svg" />
+    <None Include="wwwroot\Website\fonts\Thin-Regular.ttf" />
+    <None Include="wwwroot\Website\fonts\Thin-Regular.woff" />
+    <None Include="wwwroot\Website\images\ajax-loader.gif" />
+    <None Include="wwwroot\Website\images\banner\background-01-1920x310.jpg" />
+    <None Include="wwwroot\Website\images\banner\background-01-3840x620.jpg" />
+    <None Include="wwwroot\Website\images\banner\background-02-1920x60.jpg" />
+    <None Include="wwwroot\Website\images\banner\background-02-3840x120.jpg" />
+    <None Include="wwwroot\Website\images\banner\foreground-01-1600x310.png" />
+    <None Include="wwwroot\Website\images\banner\foreground-01-3200x620.png" />
+    <None Include="wwwroot\Website\images\banner\foreground-02-1600x60.png" />
+    <None Include="wwwroot\Website\images\banner\foreground-02-3200x120.png" />
+    <None Include="wwwroot\Website\images\bg-breadcrumbs-01-1920x480.jpg" />
+    <None Include="wwwroot\Website\images\bg-breadcrumbs-02-1920x480.jpg" />
+    <None Include="wwwroot\Website\images\bg-footer-1920x1285.jpg" />
+    <None Include="wwwroot\Website\images\bg-home1-01-1920x1000.jpg" />
+    <None Include="wwwroot\Website\images\bg-home2-01-1920x1000.jpg" />
+    <None Include="wwwroot\Website\images\bg-pattern-boxed.png" />
+    <None Include="wwwroot\Website\images\bg-subscribe-1920x600.jpg" />
+    <None Include="wwwroot\Website\images\bgr.jpg" />
+    <None Include="wwwroot\Website\images\bio-01-468x553.jpg" />
+    <None Include="wwwroot\Website\images\buffer.png" />
+    <None Include="wwwroot\Website\images\controls.jpg" />
+    <None Include="wwwroot\Website\images\events-01-553x316.jpg" />
+    <None Include="wwwroot\Website\images\events-02-571x313.jpg" />
+    <None Include="wwwroot\Website\images\favicon.ico" />
+    <None Include="wwwroot\Website\images\gmap_marker-1.png" />
+    <None Include="wwwroot\Website\images\gmap_marker-2.png" />
+    <None Include="wwwroot\Website\images\gmap_marker-3.png" />
+    <None Include="wwwroot\Website\images\gmap_marker-4.png" />
+    <None Include="wwwroot\Website\images\gmap_marker-5.png" />
+    <None Include="wwwroot\Website\images\gmap_marker.png" />
+    <None Include="wwwroot\Website\images\gmap_marker_active.png" />
+    <None Include="wwwroot\Website\images\handle.png" />
+    <None Include="wwwroot\Website\images\home1-01-1920x950.jpg" />
+    <None Include="wwwroot\Website\images\home1-02-1920x950.jpg" />
+    <None Include="wwwroot\Website\images\home1-03-1920x950.jpg" />
+    <None Include="wwwroot\Website\images\home1-05-480x350.jpg" />
+    <None Include="wwwroot\Website\images\home1-06-480x350.jpg" />
+    <None Include="wwwroot\Website\images\home1-07-480x350.jpg" />
+    <None Include="wwwroot\Website\images\home1-08-480x350.jpg" />
+    <None Include="wwwroot\Website\images\ie8-panel\warning_bar_0000_us.jpg" />
+    <None Include="wwwroot\Website\images\image-original-01-1200x800.jpg" />
+    <None Include="wwwroot\Website\images\image-original-02-1200x800.jpg" />
+    <None Include="wwwroot\Website\images\image-original-03-1200x800.jpg" />
+    <None Include="wwwroot\Website\images\image-original-04-1200x800.jpg" />
+    <None Include="wwwroot\Website\images\itunes-21x21.png" />
+    <None Include="wwwroot\Website\images\loading.gif" />
+    <None Include="wwwroot\Website\images\logo-default-296x82.png" />
+    <None Include="wwwroot\Website\images\post-classic-01-346x260.jpg" />
+    <None Include="wwwroot\Website\images\post-classic-02-346x260.jpg" />
+    <None Include="wwwroot\Website\images\post-classic-03-346x260.jpg" />
+    <None Include="wwwroot\Website\images\preloader.gif" />
+    <None Include="wwwroot\Website\images\preloader.png" />
+    <None Include="wwwroot\Website\images\progress.png" />
+    <None Include="wwwroot\Website\images\progress_sprite.jpg" />
+    <None Include="wwwroot\Website\images\single-album-01-428x428.png" />
+    <None Include="wwwroot\Website\images\spotify-19x19.png" />
+    <None Include="wwwroot\Website\images\sprite.png" />
+    <None Include="wwwroot\Website\images\typography-01-770x485.jpg" />
+    <None Include="wwwroot\Website\images\typography-02-350x220.jpg" />
+    <None Include="wwwroot\Website\images\video-01-140x81.jpg" />
+    <None Include="wwwroot\Website\images\video-02-140x81.jpg" />
+    <None Include="wwwroot\Website\images\video-03-140x81.jpg" />
+    <None Include="wwwroot\Website\images\video-04-140x81.jpg" />
+    <None Include="wwwroot\Website\images\video-05-140x81.jpg" />
+    <None Include="wwwroot\Website\images\video-play.png" />
+    <None Include="wwwroot\Website\images\vimeo-play.png" />
+    <None Include="wwwroot\Website\images\volume.png" />
+    <None Include="wwwroot\Website\images\youtube-play.png" />
+    <None Include="wwwroot\Website\images\_blank.png" />
+    <None Include="wwwroot\Website\js\about.html" />
+    <None Include="wwwroot\Website\js\contacts.html" />
+    <None Include="wwwroot\Website\js\core.min.js" />
+    <None Include="wwwroot\Website\js\index.html" />
+    <None Include="wwwroot\Website\js\script.js" />
+    <None Include="wwwroot\Website\js\typography.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\Website\bat\rd-mailform.config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+
+</Project>
