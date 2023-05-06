@@ -224,27 +224,6 @@ namespace VeriAnalizi.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("VeriAnalizi.Models.YoneticiYorum", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("KontrolId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("KontrolId");
-
-                    b.ToTable("YoneticiYorums");
-                });
 
             modelBuilder.Entity("VeriAnalizi.Models.Yorumlar", b =>
                 {
@@ -329,16 +308,7 @@ namespace VeriAnalizi.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("VeriAnalizi.Models.YoneticiYorum", b =>
-                {
-                    b.HasOne("VeriAnalizi.Models.Yorumlar", "yorumlar")
-                        .WithMany()
-                        .HasForeignKey("KontrolId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("yorumlar");
-                });
+       
 #pragma warning restore 612, 618
         }
     }

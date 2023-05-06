@@ -104,7 +104,6 @@
     <Content Remove="wwwroot\Website\images\image-original-02-1200x800.jpg" />
     <Content Remove="wwwroot\Website\images\image-original-03-1200x800.jpg" />
     <Content Remove="wwwroot\Website\images\image-original-04-1200x800.jpg" />
-    <Content Remove="wwwroot\Website\images\itunes-21x21.png" />
     <Content Remove="wwwroot\Website\images\loading.gif" />
     <Content Remove="wwwroot\Website\images\logo-default-296x82.png" />
     <Content Remove="wwwroot\Website\images\post-classic-01-346x260.jpg" />
@@ -253,7 +252,6 @@
     <None Include="wwwroot\Website\images\image-original-02-1200x800.jpg" />
     <None Include="wwwroot\Website\images\image-original-03-1200x800.jpg" />
     <None Include="wwwroot\Website\images\image-original-04-1200x800.jpg" />
-    <None Include="wwwroot\Website\images\itunes-21x21.png" />
     <None Include="wwwroot\Website\images\loading.gif" />
     <None Include="wwwroot\Website\images\logo-default-296x82.png" />
     <None Include="wwwroot\Website\images\post-classic-01-346x260.jpg" />
