@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NToastNotify;
 using System.Diagnostics;
 using VeriAnalizi.Models;
 
@@ -9,9 +10,12 @@ namespace VeriAnalizi.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IToastNotification _toast;
+
+        public HomeController(ILogger<HomeController> logger,IToastNotification toast)
         {
             _logger = logger;
+            _toast = toast;
         }
 
         public IActionResult Index()

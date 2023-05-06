@@ -224,7 +224,6 @@ namespace VeriAnalizi.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-
             modelBuilder.Entity("VeriAnalizi.Models.Yorumlar", b =>
                 {
                     b.Property<int>("Id")
@@ -307,8 +306,6 @@ namespace VeriAnalizi.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
-
-       
 #pragma warning restore 612, 618
         }
     }
