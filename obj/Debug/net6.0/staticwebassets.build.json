@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aq8qr9T0ThydGB0dx+aJuwxsDM5IRwO0ZuVlcs8Btr4=",
+  "Hash": "mL5t6ErQmE3PpZp3bVMruGNX+0Pftl8K5+sZXps3vsw=",
   "Source": "VeriAnalizi",
   "BasePath": "_content/VeriAnalizi",
   "Mode": "Default",
@@ -2941,12 +2941,12 @@
       "OriginalItemSpec": "wwwroot\\Website\\images\\friendship.png"
     },
     {
-      "Identity": "C:\\Users\\Gamze\\Desktop\\Uygulama\\KisiselVeriAnalizi\\wwwroot\\Website\\images\\hi.png",
+      "Identity": "C:\\Users\\Gamze\\Desktop\\Uygulama\\KisiselVeriAnalizi\\wwwroot\\Website\\images\\hii.png",
       "SourceId": "VeriAnalizi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Gamze\\Desktop\\Uygulama\\KisiselVeriAnalizi\\wwwroot\\",
       "BasePath": "_content/VeriAnalizi",
-      "RelativePath": "Website/images/hi.png",
+      "RelativePath": "Website/images/hii.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2955,7 +2955,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Website\\images\\hi.png"
+      "OriginalItemSpec": "wwwroot\\Website\\images\\hii.png"
     },
     {
       "Identity": "C:\\Users\\Gamze\\Desktop\\Uygulama\\KisiselVeriAnalizi\\wwwroot\\Website\\images\\hobies.png",
