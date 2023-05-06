@@ -1,0 +1,44 @@
+﻿@model IEnumerable<VeriAnalizi.Models.KullaniciMesajEkleme>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<p>
+    <a asp-action="Create">Yorum Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Fotoğraf
+            </th>
+            <th>
+                Yorum
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                @if (item.Image == null)
+                {
+                    <img src="~/Website/images/noimage.png" width="100" height="80" />
+                }
+                else
+                {
+                    <img src="@item.Image" width="100" height="80" />
+                }
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+               
+                <a asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

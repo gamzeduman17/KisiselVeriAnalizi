@@ -177,6 +177,10 @@
       "PackagePath": "staticwebassets\\Website\\self.jpg"
     },
     {
+      "Id": "C:\\Users\\Gamze\\Desktop\\Uygulama\\KisiselVeriAnalizi\\wwwroot\\Website\\wall1.png",
+      "PackagePath": "staticwebassets\\Website\\wall1.png"
+    },
+    {
       "Id": "C:\\Users\\Gamze\\Desktop\\Uygulama\\KisiselVeriAnalizi\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },

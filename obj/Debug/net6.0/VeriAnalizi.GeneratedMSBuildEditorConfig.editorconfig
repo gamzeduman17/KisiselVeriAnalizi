@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/SizdenGelenler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcU2l6ZGVuR2VsZW5sZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/Sorular.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcU29ydWxhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +54,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/KullaniciMesajEkleme/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcS3VsbGFuaWNpTWVzYWpFa2xlbWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/KullaniciMesajEkleme/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcS3VsbGFuaWNpTWVzYWpFa2xlbWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/KullaniciMesajEkleme/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcS3VsbGFuaWNpTWVzYWpFa2xlbWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/KullaniciMesajEkleme/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcS3VsbGFuaWNpTWVzYWpFa2xlbWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/KullaniciMesajEkleme/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcWW9uZXRpY2lcVmlld3NcS3VsbGFuaWNpTWVzYWpFa2xlbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Yonetici/Views/Yorumlar/Create.cshtml]

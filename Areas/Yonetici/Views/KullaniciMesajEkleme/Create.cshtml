@@ -1,0 +1,43 @@
+﻿@model VeriAnalizi.Models.KullaniciMesajEkleme
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h4>Yorum Gönder</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+            Fotoğraf Ekle
+                <input asp-for="Image" class="form-control" type="file" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+            Yorum Ekle
+                <input asp-for="KullaniciYorumu" class="form-control" />
+                <span asp-validation-for="KullaniciYorumu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ekle" class="btn btn-primary" />
+                <a asp-action="Index">Diğer Yorumları Gör</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+ 
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

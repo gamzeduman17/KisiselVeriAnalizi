@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8iUdfq1q9CX3afwX03/sUMKY8S1Oe3aR4pjP5AvdaBA=",
+  "Hash": "akHZ7JSQSLXhUCk9TgjF+8E7suuv8oPTYj+kyoiWveg=",
   "Source": "VeriAnalizi",
   "BasePath": "_content/VeriAnalizi",
   "Mode": "Default",
@@ -3483,6 +3483,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Website\\self.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Gamze\\Desktop\\Uygulama\\KisiselVeriAnalizi\\wwwroot\\Website\\wall1.png",
+      "SourceId": "VeriAnalizi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gamze\\Desktop\\Uygulama\\KisiselVeriAnalizi\\wwwroot\\",
+      "BasePath": "_content/VeriAnalizi",
+      "RelativePath": "Website/wall1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Website\\wall1.png"
     }
   ]
 }
