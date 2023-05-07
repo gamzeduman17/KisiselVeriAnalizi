@@ -42,10 +42,6 @@ namespace VeriAnalizi.Controllers
         public IActionResult Testler()
         {
 
-
-
-            
-
             return View();
         }
         public IActionResult GunlukDoz()
@@ -53,16 +49,19 @@ namespace VeriAnalizi.Controllers
             return View();
         }
         public IActionResult Sorular()
+
         {
-        //    var sq = from sorular in _context.Set<Sorular>() join cevaplar in _context.Set<Cevaplar>() on sorular.Id equals cevaplar.SoruId select new { sorular, cevaplar };
-
-
-        //   var ss = sq.ToList();
-
-        //    List<Models.Sorular> ff = ss.Select(x=>x.sorular).ToList();
-            return View();
+            List<KullaniciSorular> soru = _context.KullaniciSorulars.ToList();
+            
+            return View(soru);
 
            
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Secilen(object _lst)
+        {
+            return View();
         }
         public IActionResult SizdenGelenler()
         {

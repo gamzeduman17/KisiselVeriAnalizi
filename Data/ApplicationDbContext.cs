@@ -13,6 +13,7 @@ namespace VeriAnalizi.Data
 
         public DbSet<Yorumlar> Yorumlars { get; set; }
         public DbSet<KullaniciMesajEkleme> KullaniciMesajs { get; set; }
+        public DbSet<KullaniciSorular> KullaniciSorulars { get; set; }
           
       
 

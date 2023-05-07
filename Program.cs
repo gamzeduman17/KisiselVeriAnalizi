@@ -53,7 +53,7 @@ namespace VeriAnalizi
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{area=Kullanici}/{controller=Home}/{action=Index}/{id?}");
+                pattern: "{area=Kullanici}/{controller=Home}/{action=Sorular}/{id?}");
             app.MapRazorPages();
 
             app.Run();
