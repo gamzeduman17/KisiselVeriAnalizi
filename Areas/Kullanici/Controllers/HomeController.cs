@@ -1,7 +1,10 @@
 ﻿using AspNetCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NToastNotify;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using VeriAnalizi.Data;
 using VeriAnalizi.Models;
 
@@ -11,7 +14,7 @@ namespace VeriAnalizi.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+       
         private readonly IToastNotification _toast;
         private readonly ApplicationDbContext _context;
 
@@ -24,6 +27,8 @@ namespace VeriAnalizi.Controllers
 
         public IActionResult Index()
         {
+                 
+          
             return View();
         }
         public IActionResult Iletisim()
@@ -36,6 +41,11 @@ namespace VeriAnalizi.Controllers
         }
         public IActionResult Testler()
         {
+
+
+
+            
+
             return View();
         }
         public IActionResult GunlukDoz()
@@ -44,7 +54,15 @@ namespace VeriAnalizi.Controllers
         }
         public IActionResult Sorular()
         {
+        //    var sq = from sorular in _context.Set<Sorular>() join cevaplar in _context.Set<Cevaplar>() on sorular.Id equals cevaplar.SoruId select new { sorular, cevaplar };
+
+
+        //   var ss = sq.ToList();
+
+        //    List<Models.Sorular> ff = ss.Select(x=>x.sorular).ToList();
             return View();
+
+           
         }
         public IActionResult SizdenGelenler()
         {
