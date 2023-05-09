@@ -1,4 +1,4 @@
-﻿@model List<KullaniciSorular>
+﻿@model IEnumerable<VeriAnalizi.Models.KullaniciSorular>
 @{
     ViewData["Title"] = "Sorular";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -56,168 +56,14 @@
     </style>
 </head>
 <body style="background:rgb(34, 45, 79)">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-    <form class="container">
-        <div class="items">
-            <h3 class="baslık">Aşağıdaki sorulara sadece bugüne özgü olarak cevap veriniz.</h3>
+    <form method="post">
+        <input asp-for="@Model" />
+        <label>Checkbox</label>
 
-
-
-            <div>
-                <div class="border border-primary">
-                    <form method="post" class="m-5">
-                        <h4>Select Multiple Courses</h4>
-                        <div>
-                            @for (var index = 0; index < @Model.Count(); index++)
-                            {
-
-                                <label class="form-check-label" asp-for="@Model[index].Id">
-                                    @Model[index].Soru
-                                </label>
-                                <input type="hidden" asp-for="@Model[index].Id" />
-                                <input type="hidden" asp-for="@Model[index].Secenek1" />
-                                <br />
-                            }
-                        </div>
-                       
-                    </form>
-                </div>
-               <form method="post" asp-controller="Home" asp-action="Secilen">
-
-                    @foreach (var item in Model)
-                    {
-
-                        <p class="soru"> @item.Soru</p>
-                        <div class="item">
-                            <input type="radio" name="@item.Id" />
-                            <label for="r1">@item.Secenek1</label>
-                            <input type="radio" name="@item.Id" />
-                            <label for="r1">@item.Secenek2</label>
-                            <input type="radio" name="@item.Id" />
-                            <label for="r1">@item.Secenek3</label>
-                            <input type="radio" name="@item.Id" />
-                            <label for="r1">@item.Secenek4</label>
-                        </div>
-                    }
-                    <button type="submit" class="btn">Gönder</button>
-
-
-               </form>
-                
-                   
-                   
-                
-
-                
-
-
-
-
-
-
-                @*   <div>
-                <p class="soru"> Bugün sosyal medyada kaç dakika geçirdin?</p>
-                <div class="item">
-
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">Hiç</label>
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">Yarım Saat</label>
-
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">1 Saat</label>
-
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">2+ Saat</label>
-
-                </div>
-
-
-                </div>
-                <div>
-                <p class="soru"> Kaç öğün yemek yedin?</p>
-                <div class="item">
-
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">Hiç</label>
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">1</label>
-
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">2</label>
-
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">3+</label>
-
-                </div>
-
-
-                </div>
-
-                <div>
-                <p class="soru"> Sadece kendine ne kadar vakit ayırdın?</p>
-                <div class="item">
-
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">Hiç</label>
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">Yarım Saat</label>
-
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">1 Saat</label>
-
-
-
-                <input type="radio"
-                name="r1" />
-                <label for="r1">2+ Saat</label>
-
-                </div>
-
-
-                </div>
-                *@
-
-
-              
-            </div>
-
-        </div>
-
-
+        <div>
+            <button class="btn btn-primary" type="submit">Submit</button>
         </div>
     </form>
 
