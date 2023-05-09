@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "CevapSecimi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model List<CheckboxViewModel>
+<div class="border border-primary">
+    <form method="post" class="m-5">
+        <h4>Bugün ne kadar spor yaptın?</h4>
+        <div>
+            @for (var index = 0; index < @Model.Count(); index++)
+            {
+                <input type="checkbox" asp-for="@Model[index].IsChecked" class="form-check-input" />
+                <label class="form-check-label" asp-for="@Model[index].IsChecked">@Model[index].LabelName</label>
+                <input type="hidden" asp-for="@Model[index].Id" />
+                <input type="hidden" asp-for="@Model[index].LabelName" />
+                <br />
+            }
+        </div>
+        <div>
+            <input class="btn btn-primary mt-3" type="submit" value="Gönder" />
+        </div>
+    </form>
+</div>
+
+
+

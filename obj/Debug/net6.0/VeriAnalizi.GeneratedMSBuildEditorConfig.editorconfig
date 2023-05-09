@@ -20,8 +20,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/Cevap.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcQ2V2YXAuY3NodG1s
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/CevapSecimi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcQ2V2YXBTZWNpbWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/GunlukDoz.cshtml]
@@ -50,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/Sorular.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcU29ydWxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/SorulariGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcU29ydWxhcmlHZXRpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Gamze/Desktop/Uygulama/KisiselVeriAnalizi/Areas/Kullanici/Views/Home/Testler.cshtml]

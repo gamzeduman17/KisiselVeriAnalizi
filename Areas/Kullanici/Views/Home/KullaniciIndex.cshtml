@@ -1,4 +1,9 @@
-﻿<form method="post">
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+}
+@model InitialModel
+
+<form method="post">
     <input asp-for="@Model.IsChecked" />
     <label>Checkbox</label>
 

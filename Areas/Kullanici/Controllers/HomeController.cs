@@ -52,11 +52,7 @@ namespace VeriAnalizi.Controllers
         {
             return View();
         }
-        public IActionResult KullaniciIndex()
-        {
-            var model = new InitialModel();
-            return View(model);
-        }
+      
 
 
         public IActionResult Sorular()
@@ -73,20 +69,20 @@ namespace VeriAnalizi.Controllers
         new CheckboxViewModel
         {
             Id = 1,
-            LabelName = "Bugün ne kadar spor yaptın?",
-            IsChecked = true
+            LabelName = "Hiç",
+            IsChecked = false
         },
         new CheckboxViewModel
         {
             Id = 2,
-            LabelName = "Hiç",
+            LabelName = "Yarım Saat",
             IsChecked = false
         },
         new CheckboxViewModel
         {
             Id = 3,
             LabelName = "1 saat",
-            IsChecked = true
+            IsChecked = false
         },
         new CheckboxViewModel
         {
@@ -97,6 +93,16 @@ namespace VeriAnalizi.Controllers
 
         };
         }
+        public IActionResult KullaniciIndex()
+        {
+            var model = new InitialModel();
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult KullaniciIndex(InitialModel model)
+        {
+            return RedirectToAction("CevapSecimi");
+        }
 
         [HttpGet]
         public IActionResult CevapSecimi()
@@ -104,18 +110,25 @@ namespace VeriAnalizi.Controllers
             var model = Repository.SorulariGetir();
             return View(model);
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Secilen(object _lst)
+        public IActionResult CevapSecimi(List<CheckboxViewModel> secimler)
         {
-            return View();
+            var secilenSecimler = secimler.Where(x => x.IsChecked).ToList();
+            return RedirectToAction("CevapSecimi");
         }
-        public IActionResult SizdenGelenler()
-        {
-            var sizden = _context.KullaniciMesajs.ToList();
-            return View(sizden);
-        }
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public IActionResult Secilen(object _lst)
+        //{
+        //    return View();
+        //}
+        //public IActionResult SizdenGelenler()
+        //{
+        //    var sizden = _context.KullaniciMesajs.ToList();
+        //    return View(sizden);
+        //}
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
