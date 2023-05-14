@@ -1,6 +1,7 @@
 ﻿using AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using NToastNotify;
 using NuGet.Protocol.Core.Types;
 using System.Collections.Generic;
@@ -62,11 +63,9 @@ namespace VeriAnalizi.Controllers
             return View();
 
         }
-        public static IReadOnlyList<CheckboxViewModel> SorulariGetir()
-        {
-            return new List<CheckboxViewModel>
-            {
-        new CheckboxViewModel
+        public static List<CheckboxViewModel> sorular = new List<CheckboxViewModel>
+       {
+            new CheckboxViewModel
         {
             Id = 1,
             LabelName = "Hiç",
@@ -90,9 +89,7 @@ namespace VeriAnalizi.Controllers
             LabelName = "2 saat+",
             IsChecked = false
         },
-
-        };
-        }
+       };
         public IActionResult KullaniciIndex()
         {
             var model = new InitialModel();
@@ -101,7 +98,7 @@ namespace VeriAnalizi.Controllers
         [HttpPost]
         public IActionResult KullaniciIndex(InitialModel model)
         {
-            return RedirectToAction("CevapSecimi");
+                   return RedirectToAction("CevapSecimi");
         }
 
         [HttpGet]
@@ -109,7 +106,9 @@ namespace VeriAnalizi.Controllers
         {
             var model = Repository.SorulariGetir();
             return View(model);
+
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult CevapSecimi(List<CheckboxViewModel> secimler)
@@ -118,17 +117,6 @@ namespace VeriAnalizi.Controllers
             return RedirectToAction("CevapSecimi");
         }
 
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public IActionResult Secilen(object _lst)
-        //{
-        //    return View();
-        //}
-        //public IActionResult SizdenGelenler()
-        //{
-        //    var sizden = _context.KullaniciMesajs.ToList();
-        //    return View(sizden);
-        //}
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

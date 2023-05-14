@@ -11,20 +11,20 @@ namespace VeriAnalizi.Data
                 new CheckboxViewModel
                 {
                      Id = 1,
-            LabelName = "Bugün ne kadar spor yaptın?",
-            IsChecked = true
+            LabelName =  "Hiç",
+            IsChecked = false
         },
         new CheckboxViewModel
         {
             Id = 2,
-            LabelName = "Hiç",
+            LabelName = "Yarım Saat",
             IsChecked = false
         },
         new CheckboxViewModel
         {
             Id = 3,
             LabelName = "1 saat",
-            IsChecked = true
+            IsChecked = false
         },
         new CheckboxViewModel
         {
